@@ -1,0 +1,10 @@
+打通的第一个文件，笔记如下：
+注意 python 与Tensorflow 版本的对应
+tensorboard可视化
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+tensorboard --logdir=G:\RLcode --port=8008
+tensorboard可视化
+其中G:\RLcode是你events.out.tfevents文件所在的文件目录。
+后面--port=8008是开启可视化的“地址”，修改 --port= 后面的数字可以同时可视化多个不同的events.out.tfevents文件，如tensorboard --logdir=G:\DLcode --port=8006。
+终端输入后，会有提示的网址将其复制到火狐浏览器或者google浏览器即可。
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
